@@ -23,6 +23,10 @@ const dishObjects = items.map((dish, i) => ({
 
 function Main({ dishes }) {
   return (
+    <div>
+    <div>
+        <h2>Welcome to this beautiful restaurant!</h2>
+    </div>
     <main>
       <img
         src={chef}
@@ -40,6 +44,7 @@ function Main({ dishes }) {
         ))}
       </ul>
     </main>
+    </div>
   );
 }
 
