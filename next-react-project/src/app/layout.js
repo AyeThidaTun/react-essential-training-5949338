@@ -23,6 +23,9 @@ function Header() {
           <div>
             <Link href="/hotels">Hotels</Link>
           </div>
+          <div>
+            <Link href="/contact">Contact us</Link>
+          </div>
         </nav>
       </div>
     </header>
